@@ -1,0 +1,17 @@
+
+.font_info {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.style_1 {
+    background-color: hsl(0, 100%, 0%);
+    color: white;
+    font-weight: 700;
+}
+
+.style_2 {
+    background-color: yellow;
+    color: black;
+    font-weight: 700;
+}
