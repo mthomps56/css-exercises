@@ -1,0 +1,21 @@
+.odd_class {
+    color: rgb(2, 2, 2);
+    background-color: rgb(250, 133, 244);
+    font-family: "Verdana, DejaVu Sans, sans-serif";
+}
+
+.odd_class.big_font{
+    font-size: 36px
+
+}
+
+#id_1 {
+    color: blue;
+    font-size: 24px;
+}
+
+#id_2 {
+    background-color: rgb(50, 255, 50);
+    font-size: 24px;
+    font-weight: 700;
+}
