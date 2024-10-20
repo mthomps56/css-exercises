@@ -2,7 +2,6 @@
 
 body {
   height: 100vh;
-  margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
@@ -23,4 +22,47 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* Solution */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.right-links {
+  display: flex;
+  margin-right: 25px;
+  gap: 25px;
+  list-style: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+}
+
+.footer {
+  background: #eee;
 }
